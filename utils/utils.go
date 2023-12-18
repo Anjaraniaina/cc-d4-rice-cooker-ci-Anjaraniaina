@@ -5,10 +5,6 @@ import (
 	"strconv"
 )
 
-func Print(sentence string) {
-	fmt.Println(sentence)
-}
-
 func IntScanner() int {
 	for {
 		var input string
@@ -23,9 +19,9 @@ func IntScanner() int {
 }
 
 func NotImplemented() {
-	Print("Not implemented yet.")
+	fmt.Println("Not implemented yet.")
 }
 
 func Quit() {
-	Print("See you later!")
+	fmt.Println("See you later!")
 }
