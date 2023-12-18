@@ -28,29 +28,29 @@ public class Main {
                 .append("\n")
                 .append("6. Do something else.")
                 .toString());
+        String result = "";
         switch (Utils.intScanner()) {
             case 1 -> {
-                riceCookerService.plugIn();
-                menu();
+                result = riceCookerService.plugIn();
             }
             case 2 -> {
-                riceCookerService.pourWater();
-                menu();
+                result = riceCookerService.pourWater();
             }
             case 3 -> {
-                riceCookerService.putIngredient();
-                menu();
+                result = riceCookerService.putIngredient();
             }
             case 4 -> {
-                riceCookerService.start();
-                menu();
+                result = riceCookerService.start();
             }
             case 5 -> {
-                riceCookerService.unPlug();
-                menu();
+                result = riceCookerService.unPlug();
             }
-            case 6 -> Utils.quit();
-            default -> menu();
+            case 6 -> result = "Do something else.";
+            default -> result = "Invalid input. Try again";
+        }
+        Utils.print(result);
+        if(result != "Do something else.") {
+            menu();
         }
     }
 }
