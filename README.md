@@ -1,1 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__xb4cFP)
+# Rice Cooker
+## Description
+A program that try to simulate a rice cooker IRL.
+
+## Installation & Use
+The installation and use of this project depends on the language.
+This program is implemented in 4 different languages.  
+Follow the links to see the desired implementation:
+* [Java](https://github.com/hei-school/cc-d4-rice-cooker-ci-Anjaraniaina/tree/feature/java)
